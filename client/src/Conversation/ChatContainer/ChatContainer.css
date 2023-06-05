@@ -1,0 +1,9 @@
+.chatContainer {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  background: black;
+  opacity: 1;
+  background-image: url("https://blog.1a23.com/wp-content/uploads/sites/2/2020/02/pattern-5.svg");
+}

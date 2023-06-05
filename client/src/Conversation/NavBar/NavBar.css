@@ -1,0 +1,30 @@
+.navbar {
+  height: 15%;
+  width: 100%;
+  z-index: -2;
+  position: absolute;
+}
+
+.stats-container {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+  padding: 0.8rem;
+}
+
+.green {
+  color: greenyellow;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.ISS-container {
+  margin-bottom: 0.2rem;
+}

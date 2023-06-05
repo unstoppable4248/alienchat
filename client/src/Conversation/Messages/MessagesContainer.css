@@ -1,0 +1,72 @@
+.message-container {
+  display: block;
+  height: 87%;
+  overflow-y: scroll;
+  padding: 5px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.scrollView {
+  visibility: hidden;
+}
+
+.scroll-box {
+  width: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+.scroll-box::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+.scroll-box::-webkit-scrollbar,
+.scroll-box::-webkit-scrollbar-thumb {
+  overflow: visible;
+  border-radius: 4px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.5);
+  border: 1.5px solid transparent;
+  background-clip: content-box;
+}
+
+.cover-bar {
+  position: absolute;
+  background: #fff;
+  height: 100%;
+  top: 0;
+  /* right: -5px; */
+  width: 0.4em;
+  opacity: 1;
+  background: transparent;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.scroll-bar-wrap:hover .cover-bar {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.reconnect-container {
+  width: 100%;
+}
+
+.status-container {
+  color: red;
+  padding: 0.6rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.divider {
+  border: 0.5px solid rgba(128, 128, 128, 0.22);
+}

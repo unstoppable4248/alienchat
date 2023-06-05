@@ -1,0 +1,38 @@
+.input-message-container {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  padding: 10px 3px;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #202123;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  caret-color: #f9d949;
+  color: white;
+}
+
+input:disabled {
+  opacity: 0.5;
+}
+
+.emoji-picker {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}

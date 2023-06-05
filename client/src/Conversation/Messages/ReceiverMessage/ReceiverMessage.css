@@ -1,0 +1,41 @@
+.receiver-message-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  margin: 11px 0px;
+}
+
+.receiver-message {
+  font-size: 0.94rem;
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: 66%;
+  word-wrap: break-word;
+  /* box-shadow:
+        0 0 2rem rgba(black, 0.075),
+        0rem 1rem 1rem -1rem rgba(black, 0.1); */
+}
+
+.receiver-message-content {
+  padding: 10px 10px 10px 13px;
+  border-radius: 1.5rem 1.5rem 1.5rem 0;
+  background: #222f3b;
+  color: white;
+}
+
+.receiver-message-msg {
+  display: inline;
+  margin-right: 0.7rem;
+}
+
+.receiver-message-time {
+  font-size: 0.62rem;
+  display: inline;
+  position: relative;
+  top: 0.3rem;
+}
+
+.hide {
+  visibility: hidden;
+}
